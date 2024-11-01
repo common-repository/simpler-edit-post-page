@@ -1,0 +1,111 @@
+#wpadminbar #wp-admin-bar-simpler-logout {
+	float: right;
+}
+
+#wpadminbar #wp-admin-bar-simpler-edit-post-page
+{
+	left: 50%;
+	position: absolute;
+	top: 5px;
+}
+
+#wpadminbar #wp-admin-bar-simpler-new-menu .ab-icon:before {
+    content: '\f132';
+    top: 4px;
+}
+
+#wpadminbar #wp-admin-bar-simpler-edit-menu .ab-icon:before {
+    content: '\f105';
+    top: 2px;
+}
+
+#wpadminbar #wp-admin-bar-simpler-logout .ab-icon:before {
+    content: '\f310';
+    top: 2px;
+}
+
+#wpadminbar #wp-admin-bar-simpler-edit-post-page *
+{
+	line-height: 1.236;
+}
+
+#wp-admin-bar-simpler-edit-post-page a:hover {
+	background: none !important;
+}
+
+#wp-admin-bar-simpler-edit-post-page .simpler_toggle {
+	border: 1px solid white;
+	border-radius: 1em;
+	display: inline-block;
+}
+
+#wp-admin-bar-simpler-edit-post-page .simpler_toggle span {
+	border: 1px solid transparent;
+	border-radius: .618em;
+	display: inline-block;
+	padding: 0 1em;
+	opacity: .618;
+}
+
+#wp-admin-bar-simpler-edit-post-page .simpler_toggle:hover span {
+	opacity: 1;
+}
+
+#wp-admin-bar-simpler-edit-post-page .simpler_toggle.is_admin .simpler_toggle_admin,
+#wp-admin-bar-simpler-edit-post-page .simpler_toggle.is_simple .simpler_toggle_simple {
+	cursor: default;
+	background: white;
+	border-color: white;
+	color: black;
+	opacity: 1;
+}
+
+@media screen and (max-width: 782px)
+{
+	#wpadminbar #wp-admin-bar-simpler-edit-post-page * {
+		line-height: 1.382;
+	}
+
+	#wpadminbar #wp-admin-bar-simpler-edit-post-page {
+		display: block;
+		height: 34px;
+		padding: 5px 10px 0;
+		position: static;
+	}
+
+	#wpadminbar #wp-admin-bar-simpler-edit-post-page a {
+		height: 34px;
+	}
+
+	#wpadminbar #wp-admin-bar-simpler-new-menu,
+	#wpadminbar #wp-admin-bar-simpler-edit-menu,
+	#wpadminbar #wp-admin-bar-simpler-logout {
+		display: list-item;
+	}
+
+	#wp-admin-bar-simpler-edit-post-page .simpler_toggle {
+		height: 34px;
+	}
+
+	#wpadminbar #wp-admin-bar-simpler-edit-post-page .simpler_toggle span {
+		height: 32px;
+	}
+	#wpadminbar #wp-admin-bar-simpler-edit-post-page b {
+		display: block;
+		font-size: 1.618em;
+		font-weight: bold;
+		height: 32px;
+		text-align: center;
+		visibility: hidden;
+		width: .8em;
+	}
+
+	#wpadminbar #wp-admin-bar-simpler-edit-post-page b:first-letter {
+		text-align: center;
+		visibility: visible;
+
+	}
+}
+
+
+

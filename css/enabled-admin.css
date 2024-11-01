@@ -1,0 +1,84 @@
+#adminmenuback, #adminmenuwrap {
+	display: none;
+}
+
+#submitdiv {
+	display: none;
+}
+
+#publish_widget .inside {
+	position: relative;
+	text-align: center;
+}
+
+#publishing-action,
+#save-action {
+	display: inline-block;
+	float: none;
+	text-align: inherit;
+}
+
+#publishing-action {
+	margin-right: 1em;
+}
+
+#publishing-action .button,
+#save-action .button {
+	float: none;
+	font-size: 2em;
+	height: auto;
+	margin: 0;
+	padding: .618em 1em;
+}
+
+@media screen and (max-width: 482px) {
+	#publishing-action,
+	#save-action {
+		display: block;
+		width: 100%;
+	}
+	#publishing-action {
+		margin-bottom: 1em;
+	}
+	#publishing-action .button,
+	#save-action .button {
+		display: block;
+		width: 100%;
+	}
+}
+
+#delete-action {
+	float: none;
+	position: absolute;
+	top: 2em;
+	right: 1em;
+
+
+}
+
+@media screen and (max-width: 782px) {
+	#delete-action {
+		display: block;
+		padding: 1em;
+		position: relative;
+		text-align: center;
+	}
+}
+
+
+#publishing-action .spinner,
+#save-action .spinner {
+	display: none;
+	float: none;
+}
+
+#wpcontent, #wpfooter {
+	margin-left: 0;
+}
+
+#wpadminbar .ab-item,
+#wpadminbar .ab-empty-item,
+#wpadminbar a {
+	/*font-size: 1.382em;*/
+}
+
